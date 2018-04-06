@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Servre-Suite</title>
+	<style type="text/css">
+		button{
+			width: 100px;
+			height: 30px;
+			border-radius: 10px;
+			border-color: black;
+		}
+		body {
+		    background-image: url("images/back-6.jpg");
+		    background-repeat: no-repeat;
+		    background-size: 500px 500px;
+		    background-attachment: fixed;
+			}
+	</style>
+</head>
+<body>
+<center><img src="images/logo128x128.png" height="125" width="125"><br>
+	Detected Os: <font color="green">Fedora 27</font><br><br><br>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="operating_system" value="checkb">Choose if Detected os is not correct..<br>
+</form><br><br>Choose OS: 
+<select style="width: 100px; height: 30px; border-radius: 10px; border-color: black;">
+  <option value="fedora">Fedora</option>
+  <option value="kali">Kali linux</option>
+  <option value="redhat">Redhat</option>
+  <option value="ubuntu">Ubuntu</option>
+  <option value="centos">Cent OS</option>
+  <option value="debian">Debian</option>
+</select><br><br><br>
+<button onclick="window.location.href='server_list.html'" type="button">OK</button><br><br><br><br>
+<pre><button type="button">Help</button>	<button onclick="window.location.href='about.html'" type="button">About</button>	<button type="button">Update</button></pre>
+</center>
+</body>
+</html>
