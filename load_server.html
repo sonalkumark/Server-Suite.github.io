@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>#Server-Suite</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://avatars1.githubusercontent.com/u/35832662" />
+	<style type="text/css">
+		.center {
+			vertical-align: middle;
+    		text-align: center;
+    		padding: 5%;
+    	}
+	</style>
+</head>
+<body bgcolor="black">
+	<center><img src="images/logo-white.png" width="100px" height="100px" style="padding: 100px;"></center>
+<div class="center">
+	<font face="courier" color="white">Enter IP address of server with port 12345</font>
+<input style="border-color: black;border-radius: 5px; width: 70%; height: 50px; text-align: center;font-size: 15px;font-family: courier" type="text" id="a" onkeydown="if (event.keyCode == 13) document.getElementById('btn').click()" />
+</div>
+<center><button style="border-color: black;border-radius: 10px; width: 40px; height: 40px; text-align: center;" id="btn" onclick="myFunction()">Go</button></center>
+<script>
+function myFunction() {
+var a=document.getElementById("a").value;
+//window.open("http://"+a,"_self");
+window.open("http://"+a);
+}
+</script>
+		
+</body>
+</html>
